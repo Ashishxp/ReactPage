@@ -1,0 +1,18 @@
+html,
+body,
+#root {
+    @apply tw-w-full tw-p-0 tw-m-0;
+}
+
+html {
+    @apply tw-h-[100vh];
+}
+
+body,
+#root {
+    @apply tw-h-full tw-bg-slate-200;
+}
+
+#root {
+    @apply tw-flex;
+}
