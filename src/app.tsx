@@ -24,16 +24,8 @@ const App = () => {
             <StyleProvider hashPriority="high">
                 <div className={$styles.app}>
                     <div className={$styles.container}>
-                        欢迎来到3R教室，这是<span>React课程第一节</span>
-                        <Button
-                            type="primary"
-                            className="!tw-bg-lime-400 !tw-text-emerald-900"
-                            href="https://pincman.com/3r"
-                            target="_blank"
-                        >
-                            点此打开
-                        </Button>
-                    </div>
+                     The firt ReactPage demo  with tailwind </span>
+                      
                 </div>
             </StyleProvider>
         </ConfigProvider>
